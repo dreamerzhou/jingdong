@@ -1,0 +1,68 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+em, i {
+    font-style: normal;
+}
+ul, ol, li {
+    list-style: none;
+}
+a {
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #c81623;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+button, input {
+    font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+}
+body {
+    background-color: #f6f6f6;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino, Sans GB, \\5b8b\4f53, sans-serif;
+    color: #666;
+}
+
+/* common style */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: '.';
+    height: 0;
+}
+@font-face {
+    font-family: iconfont;
+    src: url(../font/iconfont.eot);
+    src: url(../font/iconfont.eot#iefix) format('embedded-opentype'),
+    url(../font/iconfont.woff) format('woff'),
+    url(../font/iconfont.ttf) format('truetype');
+}
+.iconfont {
+    font-family: iconfont;
+    font-style: normal;
+}
+.inner_c {
+    width: 1190px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.cl {
+    clear: both;
+}
+
+
+
+

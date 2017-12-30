@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.footer {
+    height: 500px;
+    background: #eaeaea;
+}
+.service_mod {
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+.service_mod_list {
+    overflow: hidden;  /* 清除浮动撑出盒子 */
+}
+.service_mod_item {
+    float: left;
+    width: 297px;
+}
+.service_mod_unit {
+    position: relative;
+    width: 180px;
+    margin: 0 auto;
+    padding-left: 45px;
+}
+.service_mod_tit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 42px;
+    background: url(../images/ico_service.png) no-repeat;
+    text-indent: -999px;
+    /*overflow: hidden;*/
+}
+.service_mod_duo {
+    background-position: 0 0;
+}
+.service_mod_kuai {
+    background-position: 0 -43px;
+}
+.service_mod_hao {
+    background-position: 0 -86px;
+}
+.service_mod_sheng {
+    background-position: 0 -129px;
+}
+.service_mod_txt {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+    /*padding-left: 45px;*/  /*给父元素 padding-left值 */
+}
+.help_mod {
+    padding: 20px 0;
+}
+.help_mod_list {
+    overflow: hidden;
+    height: 160px;
+}
+.help_mod_nav {
+    float: left;
+    width: 198px;
+    line-height: 22px;
+}
+.help_mod_tit {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.help_mod_cover {
+    float: right;
+    width: 200px;
+    height: 150px;
+    background: url(../images/ico_footer.png) no-repeat 0 0;
+}
+.help_mod_cover_tit {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.help_mod_cover_con {
+    padding: 0 10px;
+}
+.help_mod_cover_more {
+    text-align: right;
+}
+.copyright_mod .inner_c {
+    padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+.copyright_mod_links {
+    font-size: 0;
+}
+.copyright_mod_links a {
+    font-size: 12px;
+}
+.copyright_mod_split {
+    color: #ccc;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.copyright_mod_info {
+    padding: 10px 0;
+    color: #999;
+    line-height: 22px;
+    /*font-size: 0;       /!*影响p标签之间的行距 line-height: 22px;失效 ？？*!/*/
+}
+.copyright_mod_info a {
+    color: #999;
+    font-size: 12px;
+}
+.copyright_mod_info span {
+    font-size: 12px;
+}
+.copyright_mod_license {
+    margin-left: 16px;
+}
+.copyright_mod_auth {
+    font-size: 0;   /* 清除a标签背景图片之间空白符 */
+}
+.copyright_mod_auth_ico {
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+    background-image: url(../images/ico_footer.png);
+    margin: 0 3px;
+    overflow: hidden;
+    line-height: 1000px;
+    /*font-size: 0;*/  /* 无效，需给父元素*/
+}
+.copyright_mod_auth_ico1 {
+    background-position: 0 -151px;
+}
+.copyright_mod_auth_ico2 {
+    background-position: -104px -151px;
+}
+.copyright_mod_auth_ico3 {
+    background-position: 0 -184px;
+}
+.copyright_mod_auth_ico4 {
+    background-position: -104px -184px;
+}
+.copyright_mod_auth_ico5 {
+    background-position: 0 -217px;
+}
+.copyright_mod_auth_ico6 {
+    background-position: -104px -217px;
+}
